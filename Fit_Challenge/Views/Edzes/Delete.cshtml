@@ -1,0 +1,81 @@
+﻿@model Fit_Challenge.Edze
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Törlés</h1>
+
+<h3>Biztos hogy törölni akarod ezt az edzést?</h3>
+<div>
+    <h4>Edzés adatai:</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SportAg)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SportAg)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SportFajta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SportFajta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Leiras)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Leiras)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Datum)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Datum)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KezdIdopont)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KezdIdopont)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VegIdopont)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VegIdopont)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ElvegzettE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ElvegzettE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ToroltE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ToroltE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KotelezoE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KotelezoE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EdzesPerc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EdzesPerc)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="EdzesId" />
+        <input type="submit" value="Törlés" class="btn btn-danger" />
+        <a asp-action="Index">Vissza a menübe</a>
+    </form>
+</div>

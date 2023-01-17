@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Fit_Challenge.Edze>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Edzések</h1>
+<h4>Itt láthatod az összes felvett edzésed</h4>
+<br />
+<p>
+    <a asp-action="Create">Új Edzés hozzáadása</a>
+</p>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Sportág
+            </th>
+            <th>
+                Sport típusa
+            </th>
+            <th>
+                Leírás
+            </th>
+            <th>
+                Dátum
+            </th>
+            <th>
+                Az edzés kezdőpontja
+            </th>
+            <th>
+                Az edzés vége
+            </th>
+            <th>
+                Elvégezted már ezt az edzést?
+            </th>
+            <th>
+                Kötelező megjelenni az edzésen?
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SportAg)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SportFajta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Leiras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Datum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KezdIdopont)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VegIdopont)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ElvegzettE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KotelezoE)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EdzesId">Szerkesztés</a> |
+                <a asp-action="Details" asp-route-id="@item.EdzesId">Tulajdonságok</a> |
+                <a asp-action="Delete" asp-route-id="@item.EdzesId">Törlés</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+<p>
+    <a asp-action="Today">Napi edzések megtekintése</a>
+</p>

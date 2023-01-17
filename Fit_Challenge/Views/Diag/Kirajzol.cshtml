@@ -1,0 +1,39 @@
+﻿@model Dictionary<string, int>
+
+@{
+	foreach (KeyValuePair<string, int> adat in Model)
+	{
+
+		<text>A következő sportból: </text> @adat.Key 
+        @adat.Value <text> percet edzettél összesen</text>
+	    <br />
+	}
+}
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+        @Html.Raw($"['Sporttípus', 'Idő'],")
+            @foreach (KeyValuePair<string, int> adat in Model)
+            {
+                @Html.Raw($"['{@adat.Key}',  {@adat.Value}],")
+            }
+        ]);
+
+        var options = {
+          title: 'A sportok aránya'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    <br />
+<div id="piechart" style="width: 900px; height: 500px;"></div>

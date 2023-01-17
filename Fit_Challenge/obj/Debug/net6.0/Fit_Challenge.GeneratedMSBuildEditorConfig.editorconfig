@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Fit_Challenge
+build_property.RootNamespace = Fit_Challenge
+build_property.ProjectDir = C:\Users\Acer\source\repos\Fit_Challenge\Fit_Challenge\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Acer\source\repos\Fit_Challenge\Fit_Challenge
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Diag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Diag/Kirajzol.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ1xLaXJhanpvbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Diag/Vonal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ1xWb25hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Edzes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR6ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Edzes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR6ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Edzes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR6ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Edzes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR6ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Edzes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR6ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Edzes/Today.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR6ZXNcVG9kYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/source/repos/Fit_Challenge/Fit_Challenge/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sw1z8nj5i4

@@ -1,0 +1,26 @@
+﻿@model KategoriaModel
+
+<body>
+
+	<h1>Válassz sportágat!</h1>
+	<h4>A választott sportágon belül megjelenik az egyes sporttípusokból elvégzett edzések aránya</h4>
+
+<form asp-controller="Diag" asp-action="Kirajzol" method="post">
+	<label for="cars">Válassz sportágat:</label>
+	<select name="kategoriak" id="kategoriak">
+		@foreach(string nev in Model.KatNevek)
+		{
+				<option value="@nev">@nev</option>
+		}
+	</select>
+	<input type="submit" value="Mehet!">
+</form>
+
+<br />
+	<h1>Az összes sporttípusokból elvégzett sportok aránya</h1>
+	<br />
+	<a asp-controller="Diag" asp-action="Vonal">Vonaldiagram megtekintése</a>
+
+
+</body>
+

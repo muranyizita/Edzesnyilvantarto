@@ -1,0 +1,72 @@
+﻿@model Fit_Challenge.Edze
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Tulajdonságok</h1>
+
+<div>
+    <h4>Az edzés tulajdonságai:</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Sportág
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SportAg)
+        </dd>
+        <dt class = "col-sm-2">
+            Sport típusa
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SportFajta)
+        </dd>
+        <dt class = "col-sm-2">
+            Az edzéshez kapcsolodó megjegyzés, leírás
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Leiras)
+        </dd>
+        <dt class = "col-sm-2">
+            Dátum
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Datum)
+        </dd>
+        <dt class = "col-sm-2">
+            Az edzés kezdőpontja
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KezdIdopont)
+        </dd>
+        <dt class = "col-sm-2">
+            Az edzés vége
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VegIdopont)
+        </dd>
+        <dt class = "col-sm-2">
+            Elvégezted már ezt az edzést?
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ElvegzettE)
+        </dd>
+        <dt class = "col-sm-2">
+            Az edzés kötelező:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KotelezoE)
+        </dd>
+        <dt class = "col-sm-2">
+            Az edzés időtartama
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EdzesPerc) perc volt
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.EdzesId">Szerkesztés</a> 
+    <a asp-action="Index">Vissza a menübe</a>
+</div>
